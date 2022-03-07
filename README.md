@@ -1,7 +1,7 @@
 # sbt-catalysts
 
-[![Continuous Integration](https://github.com/typelevel/sbt-catalysts/actions/workflows/ci.yml/badge.svg)](https://github.com/typelevel/sbt-catalysts/actions/workflows/ci.yml)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.typelevel/sbt-catalysts/badge.svg)](https://search.maven.org/artifact/org.typelevel/sbt-catalysts)
+[![Continuous Integration](https://github.com/kailuowang/sbt-catalysts/actions/workflows/ci.yml/badge.svg)](https://github.com/kailuowang/sbt-catalysts/actions/workflows/ci.yml)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.kailuowang/sbt-catalysts/badge.svg)](https://search.maven.org/artifact/com.kailuowang/sbt-catalysts)
 
 
 Sbt plugin that provides a common build infrastructure and library dependencies for typelevel-like and 
@@ -12,7 +12,7 @@ similar cross platform projects.
 To use it, just add it to your `project/plugins.sbt`:
 
 ```scala
-addSbtPlugin("org.typelevel" % "sbt-catalysts" % LATEST_VERSION)
+addSbtPlugin("com.kailuowang" % "sbt-catalysts" % LATEST_VERSION)
 ```
 
 This will automatically:
@@ -162,24 +162,14 @@ lazy val scoverageSettings = sharedScoverageSettings(60)
 
 ## Projects using sbt-catalysts
 
-+ [cats-tagless][cats-tagless]
-+ [catalysts][catalysts]
 + [henkan][henkan]
 
 ### Maintainers
 
 The current maintainers (people who can merge pull requests) are:
 
- * [adelbertc](https://github.com/adelbertc) Adelbert Chang
- * [ochrons](https://github.com/ochrons) Otto Chrons
- * [BennyHill](https://github.com/BennyHill) Alistair Johnson
- * [non](https://github.com/non) Erik Osheim
- * [milessabin](https://github.com/milessabin) Miles Sabin
- * [fthomas](https://github.com/fthomas) Frank S. Thomas
- * [julien-truffaut](https://github.com/julien-truffaut) Julien Truffaut
- * [dwijnand](https://github.com/dwijnand) Dale Wijnand
  * [kailuowang](https://github.com/kailuowang) Kailuo Wang
- * [andyscott](https://github.com/andyscott) Andy Scott
+
 
  
 We are currently following a practice of requiring at least two
