@@ -11,7 +11,7 @@ addSbtPlugin("com.github.sbt"      %  "sbt-pgp"                  % "2.1.2")
 addSbtPlugin("org.xerial.sbt"      %  "sbt-sonatype"             % "3.9.12")
 addSbtPlugin("com.typesafe.sbt"    %  "sbt-git"                  % "1.0.2")
 
-addSbtPlugin("com.github.tkawachi" %  "sbt-doctest"              % "0.9.9")
+addSbtPlugin("com.github.tkawachi" %  "sbt-doctest"              % "0.10.0")
 
 addSbtPlugin("pl.project13.scala"  %  "sbt-jmh"                  % "0.4.3")
 addSbtPlugin("org.scalastyle"      %% "scalastyle-sbt-plugin"    % "1.0.0")
