@@ -20,7 +20,7 @@ addSbtPlugin("org.scoverage"       %  "sbt-scoverage"            % "1.9.3")
 addSbtPlugin("org.portable-scala"  %  "sbt-scalajs-crossproject" % "1.2.0")
 addSbtPlugin("org.scala-js"        %  "sbt-scalajs"              % "1.10.0")
 addSbtPlugin("com.47deg"           %  "sbt-microsites"           % "1.3.4")
-addSbtPlugin("io.github.davidgregory084" % "sbt-tpolecat"        % "0.2.2")
+addSbtPlugin("io.github.davidgregory084" % "sbt-tpolecat"        % "0.2.3")
 
 scalacOptions ++= Seq(Opts.compile.deprecation, "-feature")
 
