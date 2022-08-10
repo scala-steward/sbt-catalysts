@@ -9,7 +9,7 @@ val libs = org.typelevel.libraries
 
 
 
-lazy val rootSettings = buildSettings ++ commonSettings ++ publishSettings ++ scoverageSettings
+lazy val rootSettings = buildSettings ++ commonSettings ++ publishSettings
 lazy val module = mkModuleFactory(gh.proj, mkConfig(rootSettings, commonJvmSettings, commonJsSettings))
 lazy val prj = mkPrjFactory(rootSettings)
 
@@ -52,6 +52,5 @@ lazy val commonJvmSettings = Seq()
 
 lazy val publishSettings = sharedPublishSettings(gh) ++ credentialSettings ++ sharedReleaseProcess
 
-lazy val scoverageSettings = sharedScoverageSettings(60)
 
 lazy val disciplineDependencies = addLibs(libs, "discipline", "scalacheck")

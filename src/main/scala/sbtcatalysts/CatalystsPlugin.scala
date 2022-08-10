@@ -19,7 +19,6 @@ import ReleaseTransformations._
 import org.scalajs.sbtplugin.ScalaJSPlugin
 import ScalaJSPlugin.autoImport._
 import microsites.MicrositesPlugin.autoImport._
-import scoverage.ScoverageKeys
 import org.portablescala.sbtplatformdeps.PlatformDepsPlugin.autoImport._
 import sbtcrossproject.{CrossProject, JVMPlatform}
 import sbtcrossproject.CrossPlugin.autoImport._
@@ -344,20 +343,6 @@ trait CatalystsBase {
       (before :+ step) ++ after
     }
   }
-
-  /** Common coverage settings, with minimum coverage defaulting to 80.*/
-  def sharedScoverageSettings(min: Int = 80) = Seq(
-    ScoverageKeys.coverageMinimum := min,
-    ScoverageKeys.coverageFailOnMinimum := false,
-    ScoverageKeys.coverageHighlighting := scalaBinaryVersion.value != "2.10",
-    ScoverageKeys.coverageEnabled := {
-      if(priorTo2_13(scalaVersion.value))
-        ScoverageKeys.coverageEnabled.value
-      else
-        false
-    }
-    // ScoverageKeys.coverageExcludedPackages := "catalysts\\.bench\\..*"
-  )
 
   /** Common unidoc settings, adding the "-Ymacro-no-expand" scalac option.*/
   lazy val unidocCommonSettings = Seq(
