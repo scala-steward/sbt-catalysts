@@ -1,5 +1,6 @@
 import sbt.Keys.description
 
+
 lazy val plugin = project.in(file("."))
   .enablePlugins(SbtPlugin)
   .settings(
@@ -42,10 +43,11 @@ lazy val plugin = project.in(file("."))
       "-Dplugin.version=" + version.value
     ),
 
-    //self referencing so that dependencies can be monitored by Scala Steward
+
 
 )
 
+//referencing so that dependencies can be monitored by Scala Steward
 lazy val tests = project.settings(
   scalaVersion := org.typelevel.libraries.vers("scalac_2.13"),
   org.typelevel.libraries.testDependencies(org.typelevel.libraries.libs.keys.toSeq:_*)
