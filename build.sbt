@@ -6,7 +6,7 @@ lazy val plugin = project.in(file("."))
   .settings(
     name := "sbt-catalysts",
     description := "SBT plugin for Catalysts",
-    libraryDependencies += "org.slf4j" % "slf4j-nop" % "1.7.36",
+    libraryDependencies += "org.slf4j" % "slf4j-nop" % "2.0.0",
     addSbtPlugin("com.github.sbt"        %  "sbt-unidoc"               % "0.5.0"),
     addSbtPlugin("com.github.sbt"      %  "sbt-release"              % "1.1.0"),
     addSbtPlugin("com.github.sbt"      %  "sbt-pgp"                  % "2.1.2"),
