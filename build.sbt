@@ -46,9 +46,3 @@ lazy val plugin = project.in(file("."))
 
 
 )
-
-//referencing so that dependencies can be monitored by Scala Steward
-lazy val tests = project.settings(
-  scalaVersion := org.typelevel.libraries.vers("scalac_2.13"),
-  org.typelevel.libraries.testDependencies(org.typelevel.libraries.libs.keys.toSeq:_*)
-)
