@@ -1,13 +1,13 @@
 pull_request_rules:
   - name: label scala-steward's PRs
     conditions:
-      - author=scala-steward
+      - author=scala-steward-bot-kailuowang
     actions:
       label:
         add: [dependencies]
   - name: automatically merge scala-steward's patch PRs
     conditions:
-      - author=Scala-steward-bot-kailuowang
+      - author=scala-steward-bot-kailuowang
       - status-success=Build and Test (ubuntu-latest, 2.12.16, adopt@1.8)
     actions:
       merge:
