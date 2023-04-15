@@ -29,7 +29,7 @@ object `package` {
     .addJVM(name = "machinist",     version = "0.6.8",  org = typeLevelOrg)
     .add(name = "monocle",          version = "2.1.0",  org = "com.github.julien-truffaut", "monocle-core", "monocle-generic", "monocle-macro", "monocle-state", "monocle-law")
     .add(name = "newtype",          version = "0.4.4",  org = "io.estatico")
-    .addJVM( name = "pureconfig",      version = "0.17.2", org = "com.github.pureconfig", "pureconfig-cats-effect", "pureconfig-generic")
+    .addJVM( name = "pureconfig",      version = "0.17.3", org = "com.github.pureconfig", "pureconfig-cats-effect", "pureconfig-generic")
     .add(name = "refined",          version = "0.10.3",  org = "eu.timepit", "refined", "refined-scalacheck", "refined-scodec")
     .add(name = "scalacheck",       version = "1.17.0", org = "org.scalacheck")
     .add(name = "scalatest",        version = "3.2.15",  org = "org.scalatest")
