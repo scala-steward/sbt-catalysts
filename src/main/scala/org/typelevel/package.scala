@@ -16,7 +16,7 @@ object `package` {
     .add(name = "cats-effect-testing",  version = "1.4.0",  org = typeLevelOrg, modules="cats-effect-testing-scalatest", "cats-effect-testing-utest", "cats-effect-testing-minitest")
     .add(name = "cats-mtl",         version = "1.3.1",  org = typeLevelOrg, "cats-mtl", "cats-mtl-laws")
     .add(name = "cats-retry",       version = "3.1.0",  org = "com.github.cb372")
-    .add(name = "cats-tagless",     version = "0.14.0",    org = typeLevelOrg, "cats-tagless-core", "cats-tagless-laws", "cats-tagless-macros")
+    .add(name = "cats-tagless",     version = "0.15.0",    org = typeLevelOrg, "cats-tagless-core", "cats-tagless-laws", "cats-tagless-macros")
     .add(name = "cats-testkit-scalatest",version = "2.1.5",  org = typeLevelOrg)
     .add(name = "fs2" ,             version = "3.7.0",  org = "co.fs2", modules = "fs2-core")
     .addJVM(name = "fs2-jvm" ,      version = "3.7.0",  org = "co.fs2", "fs2-reactive-streams", "fs2-io")
