@@ -15,7 +15,7 @@ lazy val plugin = project.in(file("."))
     addSbtPlugin("com.github.tkawachi" %  "sbt-doctest"              % "0.10.0"),
     addSbtPlugin("pl.project13.scala"  %  "sbt-jmh"                  % "0.4.5"),
     addSbtPlugin("org.scalastyle"      %% "scalastyle-sbt-plugin"    % "1.0.0"),
-    addSbtPlugin("org.portable-scala"  %  "sbt-scalajs-crossproject" % "1.3.1"),
+    addSbtPlugin("org.portable-scala"  %  "sbt-scalajs-crossproject" % "1.3.2"),
     addSbtPlugin("org.scala-js"        %  "sbt-scalajs"              % "1.13.2"),
     addSbtPlugin("com.47deg"           %  "sbt-microsites"           % "1.3.4"),
     addSbtPlugin("io.github.davidgregory084" % "sbt-tpolecat"        % "0.3.3"),
