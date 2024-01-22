@@ -8,7 +8,7 @@ lazy val plugin = project.in(file("."))
     description := "SBT plugin for Catalysts",
     libraryDependencies += "org.slf4j" % "slf4j-nop" % "2.0.11",
     addSbtPlugin("com.github.sbt"        %  "sbt-unidoc"               % "0.5.0"),
-    addSbtPlugin("com.github.sbt"      %  "sbt-release"              % "1.3.0"),
+    addSbtPlugin("com.github.sbt"      %  "sbt-release"              % "1.4.0"),
     addSbtPlugin("com.github.sbt"      %  "sbt-pgp"                  % "2.2.1"),
     addSbtPlugin("org.xerial.sbt"      %  "sbt-sonatype"             % "3.10.0"),
     addSbtPlugin("com.typesafe.sbt"    %  "sbt-git"                  % "1.0.2"),
