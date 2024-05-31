@@ -22,7 +22,7 @@ object `package` {
     .addJVM(name = "fs2-jvm" ,      version = "3.10.2",  org = "co.fs2", "fs2-reactive-streams", "fs2-io")
     .addJVM(name = "fs2-kafka",     version = "3.5.1",  org = "com.github.fd4s")
     .addJVM(name = "http4s" ,       version = "0.23.27", org = "org.http4s", modules = "http4s-dsl",  "http4s-circe", "http4s-core")
-    .addJVM(name = "http4s-modules" ,       version = "0.23.11", org = "org.http4s", modules =  "http4s-play-json",  "http4s-twirl", "http4s-blaze-client", "http4s-blaze-server")
+    .addJVM(name = "http4s-modules" ,       version = "0.23.16", org = "org.http4s", modules =  "http4s-play-json",  "http4s-twirl", "http4s-blaze-client", "http4s-blaze-server")
     .add(   name = "jawn",          version = "1.6.0",  org = org.typelevel.typeLevelOrg, "jawn-ast", "jawn-parser", "jawn-util")
     .add(name = "kittens",          version = "3.3.0",  org = typeLevelOrg)
     .add(name = "mouse",            version = "1.2.3",   org = typeLevelOrg)
