@@ -25,7 +25,7 @@ object `package` {
     .addJVM(name = "http4s-modules" ,       version = "0.23.11", org = "org.http4s", modules =  "http4s-play-json",  "http4s-twirl", "http4s-blaze-client", "http4s-blaze-server")
     .add(   name = "jawn",          version = "1.6.0",  org = org.typelevel.typeLevelOrg, "jawn-ast", "jawn-parser", "jawn-util")
     .add(name = "kittens",          version = "3.3.0",  org = typeLevelOrg)
-    .add(name = "mouse",            version = "1.3.0",   org = typeLevelOrg)
+    .add(name = "mouse",            version = "1.3.1",   org = typeLevelOrg)
     .addJVM(name = "machinist",     version = "0.6.8",  org = typeLevelOrg)
     .add(name = "monocle",          version = "2.1.0",  org = "com.github.julien-truffaut", "monocle-core", "monocle-generic", "monocle-macro", "monocle-state", "monocle-law")
     .add(name = "newtype",          version = "0.4.4",  org = "io.estatico")
