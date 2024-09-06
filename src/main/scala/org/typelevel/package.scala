@@ -40,7 +40,7 @@ object `package` {
     .add(name = "scalac"   ,        version = "2.13.12")
     .add(name = "scalac_2.13",      version = "2.13.12")
     .add(name = "scalac_3",         version = "3.1.1")
-    .add(name = "scalac_2.12",      version = "2.12.16")
+    .add(name = "scalac_2.12",      version = "2.12.20")
     .add(name = "scalac_2.11",      version = "2.11.12")
     .add(name = "scalac_2.10",      version = "2.10.7")
     .addScalacPlugin(name = "kind-projector", version = "0.13.2",  org = typeLevelOrg, crossVersion = CrossVersion.full )

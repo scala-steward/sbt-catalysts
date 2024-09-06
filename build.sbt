@@ -20,7 +20,7 @@ lazy val plugin = project.in(file("."))
     addSbtPlugin("com.47deg"           %  "sbt-microsites"           % "1.3.4"),
     addSbtPlugin("io.github.davidgregory084" % "sbt-tpolecat"        % "0.3.3"),
     scalacOptions ++= Seq(Opts.compile.deprecation, "-feature"),
-    scalaVersion := "2.12.16",
+    scalaVersion := "2.12.20",
     scmInfo := Some(ScmInfo(url("https://github.com/kailuowang/sbt-catalysts"), "git@github.com:kailuowang/sbt-catalysts.git")),
     inThisBuild(List(
       organization := "com.kailuowang",
